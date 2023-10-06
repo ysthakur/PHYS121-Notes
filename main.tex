@@ -1,0 +1,36 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+
+\input{Commands}
+
+\title{PHYS121 Notes}
+\author{Yash Thakur}
+\date{\today}
+
+% Don't include chapter number in section numbers
+\counterwithout{section}{chapter}
+% % Get rid of chapter numbers
+% \titleformat{\chapter}[block]
+%   {\normalfont\huge\bfseries}{}{0em}{\normalfont\Huge\bfseries}
+% \titlespacing*{\chapter}{0pt}{-19pt}{0pt}
+
+\makeatletter
+\def\app@exe{\immediate\write18}
+\def\inputAllFiles#1{%
+  \app@exe{ls #1/*.tex | xargs cat >> #1/\jobname.tmp}%
+  \InputIfFileExists{#1/\jobname.tmp}{}{}
+  \AtEndDocument{\app@exe{rm -f #1/\jobname.tmp}}}
+\makeatother
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\inputAllFiles{Lec-Notes}
+
+\end{document}
