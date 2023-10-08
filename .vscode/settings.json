@@ -37,6 +37,7 @@
 	"latex-workshop.latex.clean.subfolder.enabled": true,
 	"latex-workshop.latex.magic.args": [
 		"-output-directory=PDF", // to change the output directory
+		"-shell-escape",
 		"%DOC%"
 	],
 	// Remove / comment the next 3 lines to remove dark view for pdf

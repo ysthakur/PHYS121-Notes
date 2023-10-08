@@ -8,6 +8,22 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
+				"latex-workshop.latex.tools": [
+					{
+						"name": "latexmk",
+						"command": "latexmk",
+						"args": [
+							"-shell-escape",
+							"-synctex=1",
+							"-interaction=nonstopmode",
+							"-file-line-error",
+							"-pdf",
+							"-outdir=%OUTDIR%",
+							"%DOC%"
+						],
+						"env": {}
+					}
+				],
 				"latex-workshop.latex.clean.fileTypes": [
 					"*.aux",
 					"*.bbl",
@@ -46,7 +62,7 @@
 				"latex-workshop.latex.clean.subfolder.enabled": true,
 				"latex-workshop.latex.magic.args": [
 					"-output-directory=PDF", // to change the output directory,
-					"--shell-escape",
+					"-shell-escape",
 					"%DOC%"
 				],
 				// Remove / comment the next 3 lines to remove dark view for pdf
@@ -58,9 +74,12 @@
 				"latex-workshop.latex.pdfWatch.delay": 500,
 				//"latex-workshop.latex.watch.delay": 500, // Deprecated. See here: https://github.com/sanjib-sen/WebLaTex/issues/8
 				"latex-workshop.codespaces.portforwarding.openDelay": 20000,
+				"latex-workshop.latex.search.rootFiles.include": [
+					"*.tex"
+				]
 			},
 			"extensions": [
-				"James-Yu.latex-workshop",
+				"James-Yu.latex-workshop"
 			]
 		}
 	}
