@@ -18,6 +18,7 @@
 \makeatletter
 
 % Make sure to pass --shell-escape to the Latex compiler to make this work
+% For \input{}ing every file in the given directory
 \def\inputAllFiles#1{%
   \immediate\write18{ls #1/*.tex | xargs cat >> #1/main.tmp}%
   \InputIfFileExists{#1/main.tmp}{}{}
@@ -33,6 +34,7 @@
 
 \newpage
 
+% Breaks incremental compilation? \input files manually instead
 % \inputAllFiles{Lec-Notes}
 
 \input{Lec-Notes/Chapter-1.tex}
