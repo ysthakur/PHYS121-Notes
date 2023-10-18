@@ -53,5 +53,6 @@
   "latex-workshop.latex.search.rootFiles.include": ["*.tex"],
   "files.watcherExclude": {
     "**/target": true
-  }
+  },
+  "editor.wordWrap": "on"
 }
