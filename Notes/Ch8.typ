@@ -32,6 +32,6 @@ As long as the object's center of gravity remains over the base of support, torq
 
 If the object's center of gravity moves outside the base of support, it is *unstable*.
 
-*Critical angle:* Angle where center of gravity is directly above pivot.
+/ Critical angle: Angle where center of gravity is directly above pivot.
 
-$ theta_c = tan^{-1}((1/2 t) / h) $
+$ theta_c = tan^(-1)((1/2 t) / h) $

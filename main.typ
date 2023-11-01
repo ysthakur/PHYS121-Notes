@@ -13,11 +13,19 @@
 
 #set heading(numbering: "1.1.")
 
+#pagebreak()
 #include "Notes/Ch1.typ"
+#pagebreak()
 #include "Notes/Ch2.typ"
+#pagebreak()
 #include "Notes/Ch3.typ"
+#pagebreak()
 #include "Notes/Ch4.typ"
+#pagebreak()
 #include "Notes/Ch5.typ"
+#pagebreak()
 #include "Notes/Ch6.typ"
+#pagebreak()
 #include "Notes/Ch7.typ"
+#pagebreak()
 #include "Notes/Ch8.typ"
