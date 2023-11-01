@@ -14,7 +14,7 @@ For an object in static equilibrium, the net torque about *every point* must be 
 
 You can choose _any_ point as a pivot point for calculating torque.
 
-*Natural axis:* Axis about which rotation \emph{would} occur if the object were not in static equilibrium.
+*Natural axis:* Axis about which rotation *would* occur if the object were not in static equilibrium.
 
 == Forces and Torques in the Body
 

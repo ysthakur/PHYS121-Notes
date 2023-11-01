@@ -1,6 +1,6 @@
 = Chapter 7
 
-== Describing Circular and Rotational Motion}
+== Describing Circular and Rotational Motion
 
 *Rotational motion:* Motion of objects that spin about an axis.
 
@@ -12,7 +12,7 @@
 Every point on a rotating body has the same angular velocity. \
 Relationship between speed and angular speed: $v = omega r$
 
-*Angular acceleration:* $alpha = (Delta omega)/t$ (units are $"rad"/"s"^2$)
+*Angular acceleration:* $alpha = (Delta omega)/t$ (units are $upright("rad"/s^2)$)
 
 $Delta theta = omega_0 t + 1/2 alpha t^2$, just like with linear motion with constant acceleration.
 
@@ -43,14 +43,14 @@ $phi$ is measured from the radial line to the direction of the force.
   #image("../Images/7-torque.png", width: 50%)
 ]
 
-== Gravitational Torque and the Center of Gravity}
+== Gravitational Torque and the Center of Gravity
 
 Every particle in an object experiences torque due to the force of gravity. The gravitational torque can be calculated by assuming that the net force of gravity (the object's weight) acts as a single point. \
 This single point is the *center of gravity*.
 
-== Rotational Dynamics and Moment of Inertia}
+== Rotational Dynamics and Moment of Inertia
 
-=== Relationship between torque and angular acceleration}
+=== Relationship between torque and angular acceleration
 
 Torque causes angular acceleration.
 
@@ -67,7 +67,7 @@ $ alpha = tau/(m r^2) $
   #image("../Images/7-torque-to-angular.png", width: 50%)
 ]
 
-=== Newton's Second Law for Rotational Motion}
+=== Newton's Second Law for Rotational Motion
 
 For a rigid body rotating about fixed axis, can think of object as consisting of multiple particles. \
 Can calculate torque on each particle.
