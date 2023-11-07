@@ -84,5 +84,3 @@ Moment of inertia *depends on axis of rotation*. It depends on how the mass is d
 *The moment of inertia is the rotational equivalent of mass*, i.e., $F_"net" = m a$, $tau_"net" = I alpha$
 
 / Newton's second law for rotation: An object that experiences a net torque $tau_"net"$ about the axis of rotation undergoes an angular acceleration of: $ alpha = (tau_"net")/I $
-
-== Springs and Hooke's Law

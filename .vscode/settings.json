@@ -1,0 +1,7 @@
+{
+  "editor.wordWrap": "on",
+  "editor.minimap.autohide": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.renderCharacters": false
+}
