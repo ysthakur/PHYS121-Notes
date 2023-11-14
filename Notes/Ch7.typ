@@ -16,6 +16,8 @@ Relationship between speed and angular speed: $v = omega r$
 
 $Delta theta = omega_0 t + 1/2 alpha t^2$, just like with linear motion with constant acceleration.
 
+Distance: $upright(S) = r Theta$
+
 == The Rotation of a Rigid Body
 
 / Rigid body: An extended object whose shape and size do not change as it moves.
