@@ -8,4 +8,4 @@
 
 Examples of forces:
 
-
+- Weight ($arrow(w)$)
