@@ -29,3 +29,7 @@
 #include "Notes/Ch7.typ"
 #pagebreak()
 #include "Notes/Ch8.typ"
+#pagebreak()
+#include "Notes/Ch9.typ"
+#pagebreak()
+#include "Notes/Ch10.typ"
