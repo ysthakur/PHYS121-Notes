@@ -61,3 +61,37 @@ Only the height ($h$) matters, not the path the object took to get there
 $ U_upright(s) = 1/2 k x^2 $
 
 == Conservation of Energy
+
+In an isolated system, $W = 0$
+
+Carefully choose an isolated system to solve problems in
+
+== Energy Diagrams
+
+*Energy diagrams* graph potential energy as a function of position
+
+- Free fall energy diagrams are linear graphs of gravitational potential energy
+- A spring's energy diagram is a parabola showing spring potential energy
+
+#align(center)[
+  #image("/Images/10-Energy-Diagrams.png", width: 45%)
+]
+
+- The distance from the axis to the PE line is the potential energy
+- The distance from the PE line to the energy line E is the kinetic energy
+- The object cannot be at a position where the PE curve is above the E line (because E is total energy)
+- A position where the E line crosses the PE curve is a turning point where the object reverses direction
+- If the E line crosses the PE curve at two positions, the object will oscillate between those two positions
+- Speed will be at a maximum where the PE curve is a minimum (because that's where KE is at a maximum)
+
+== Power
+
+/ Power: Rate at which energy is transformed or transferred (scalar), measured in watts (W)
+
+$ P = (Delta E) / (Delta t) = W / (Delta t) $
+
+/ Output power: A force doing work transfers energy, and the rate at which the force transfers energy is called output power
+
+$ P = F v $
+
+where $P$ is $F$'s output power, and $v$ is the velocity of the object that $F$ is acting on

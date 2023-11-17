@@ -55,6 +55,13 @@ The forces in an explosion are *internal* forces, so if the system is isolated, 
 == Inelastic Collisions
 
 / Perfectly inelastic collision: Two objects stick together and move with common final velocity (e.g. clay hitting the floor)
+/ Perfectly elastic collision: Mechanical energy is conserved
+
+#note[
+  Although momentum is conserved in all collisions, mechanical energy is only conserved in a perfectly elastic collision.
+]
+
+In an inelastic collision, some mechanical energy is converted to thermal energy.
 
 == Angular Momentum
 
