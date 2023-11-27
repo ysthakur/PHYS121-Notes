@@ -16,6 +16,8 @@ Energy can be transferred between a system and its environment through work and 
 Work is change in total energy:
 $ W = Delta E $
 
+Work is positive when energy transferred into system and negative when energy transferred out of system
+
 / Isolated system: No energy transferred into or out of system
 
 === Law of Conservation of Energy
