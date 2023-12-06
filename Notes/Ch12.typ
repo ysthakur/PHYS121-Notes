@@ -46,7 +46,7 @@ SI unit for pressure is pascal (Pa), equal to $N/m^2$
 
 The net pressure force is exterted only *where there is a pressure difference* between the two sides of a surface
 
-$ F_net = F_2 - F_1 = p_2A - p_1A = A(p_2 - p_1) = A Delta p $
+$ F_"net" = F_2 - F_1 = p_2A - p_1A = A(p_2 - p_1) = A Delta p $
 
 $Delta p$ is gauge pressure
 
@@ -68,7 +68,7 @@ $ p V = n R T $
 - $p$ is absolute pressure
 - $V$ is volume of sample ($upright(m)^3$)
 - $n$ is number of moles in the sample/container of gas
-- $R$ is *gas constant* ($R = N_upright(A) k_upright(B) = 8.31 upright(J/mol dot K)$)
+- $R$ is *gas constant* ($R = N_upright(A) k_upright(B) = 8.31 upright(J/"mol" dot K)$)
 - $T$ is temperature in Kelvin
 
 == Ideal Gas Processes
@@ -96,6 +96,93 @@ since we know $p$ and $V$
 
 === Constant-Volume Processes
 
-==== Isochoric Process
+/ Isochoric: An isochoric process is a *constant-volume process*
 
+Warming a gas will raise its pressure without changing its volume. This is an example of a constant-volume process
 
+A constant-volume process appears on a $p V$ diagram as a vertical line.
+
+=== Constant-Pressure Processes
+
+/ Isobaric: An isobaric process is a *constant-pressure process*
+
+A constant-pressure process appears on a $p V$ diagram as a horizontal line.
+
+#highlight[TODO insert image of piston]
+
+=== Constant-Temperature Processes
+
+/ Isothermal: An isothermal process is a *constant-temperature process*
+
+#highlight[TODO insert image of piston (the other one)]
+
+/ Isotherm: A graph of an isothermal process
+
+The location of the isotherm depends on temperature.
+The direction along the isotherm depends on the process.
+
+#highlight[TODO insert image of pV diagram example]
+
+=== Thermodynamics of Ideal-Gas Processes
+
+- Heat and work are just two different ways to add energy to a system
+- When gases expand, they do work on the piston
+- If the gas expands under constant pressure, pushing the piston (with area $A$) from $x_i$ to $x_f$, then the work done is:
+
+#important(title: "Work done by a gas in a constant-pressure process")[
+  $ W_"gas" = F_"gas" d = (p A)(x_f - x_i) = p(x_f A - x_i A) = p(V_f - V_i) = p Delta V $
+]
+
+To calculate work, *pressure must be in Pa and volume in $upright(m)^3$*
+
+$x_i A$ is the initial volume and $x_f A$ is the final volume
+
+For all ideal-gas processes, the work is the area under the $p V$ graph between $V_i$ and $V_f$:
+#highlight[TODO: insert image of work done by gas]
+
+#note[
+  No work is done in a constant-volume process.
+]
+
+=== Adiabatic Processes
+
+/ Adiabatic processes: Processes where heat is not transferred, i.e., $Q = 0$
+
+An adiabatic expansion lowers the temperature of a gas
+- Expansion means the gas does the work
+- This means work is negative
+- So $Delta E_"thermal"$ is negative
+- Thus, temperature decreases
+
+An adiabatic compression raises the temperature of a gas
+
+Adiabatic processes allow you to use work rather than heat to change temperature of the gas
+
+== Specific Heat and Heat of Transformation
+
+/ Specific heat: The specific heat ($c$) of a substance is the amount of heat that raises the temperature of 1 kg of that substance by 1 K
+
+Heat needed to produce a temperature change $T$ for mass $M$ with specific heat $c$:
+
+$ Q = M c Delta T $
+
+Substances with large $c$, like water, are slow to warm up and cool down.
+Described as having a large thermal inertia.
+
+=== Phase Changes
+
+/ Melting point: Temperature at which solid becomes liquid
+/ Freezing point: Temperature at which liquid becomes solid
+/ Condensation point: Temperature at which gas becomes liquid
+/ Boiling point: Temperature at which liquid becomes gas
+/ Phase changes: Melting and freezing are phase changes
+/ Phase equilibrium: A system at the melting point is in phase equilibrium
+
+=== Heat of Transformation
+
+A phase change is characterized by a change in thermal energy without a change in temperature
+
+/ Heat of transformation: $L$ is the amount of heat energy that causes 1 kg of a substance to undergo a phase change
+
+/ Heat of fusion: $L_f$ is the heat of transformation between a solid and a liquid
+/ Heat of vaporization: $L_v$ is the heat of transformation between a liquid and a gas
