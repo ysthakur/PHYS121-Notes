@@ -186,3 +186,13 @@ A phase change is characterized by a change in thermal energy without a change i
 
 / Heat of fusion: $L_f$ is the heat of transformation between a solid and a liquid
 / Heat of vaporization: $L_v$ is the heat of transformation between a liquid and a gas
+
+Heat needed to melt/freeze mass $M$: $Q = plus.minus M L_f$ \
+Heat needed to boil/condense mass $M$: $Q = plus.minus M L_v$
+
+=== Evaporation
+
+/ Evaporation: Process of some molecules moving from liquid to gas phase at temperatures lower than boiling point
+
+At any temperature, some of the molecules are moving fast enough to go into the gas phase,
+carrying away thermal energy and reducing the average kinetic energy (temperature) of the liquid
