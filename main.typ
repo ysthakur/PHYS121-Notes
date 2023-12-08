@@ -14,24 +14,26 @@
 #set heading(numbering: "1.1.")
 
 #pagebreak()
-#include "Notes/Ch1.typ"
+#include "Notes/Ch01.typ"
 #pagebreak()
-#include "Notes/Ch2.typ"
+#include "Notes/Ch02.typ"
 #pagebreak()
-#include "Notes/Ch3.typ"
+#include "Notes/Ch03.typ"
 #pagebreak()
-#include "Notes/Ch4.typ"
+#include "Notes/Ch04.typ"
 #pagebreak()
-#include "Notes/Ch5.typ"
+#include "Notes/Ch05.typ"
 #pagebreak()
-#include "Notes/Ch6.typ"
+#include "Notes/Ch06.typ"
 #pagebreak()
-#include "Notes/Ch7.typ"
+#include "Notes/Ch07.typ"
 #pagebreak()
-#include "Notes/Ch8.typ"
+#include "Notes/Ch08.typ"
 #pagebreak()
-#include "Notes/Ch9.typ"
+#include "Notes/Ch09.typ"
 #pagebreak()
 #include "Notes/Ch10.typ"
 #pagebreak()
 #include "Notes/Ch11.typ"
+#pagebreak()
+#include "Notes/Ch12.typ"
