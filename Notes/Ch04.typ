@@ -9,3 +9,19 @@
 Examples of forces:
 
 - Weight ($arrow(w)$)
+- Tension ($arrow(T)$)
+
+== Newton's Second Law
+
+$arrow(F)_"net" = m arrow(a)$
+
+== Newton's Third Law
+
+/ Interaction: Mutual influence of two objects on each other
+
+An action/reaction pair of forces exists as a pair or not at all
+
+/ Newton's Third Law: Every force occurs as one member of an action/reaction pair of forces
+
+- The two members of an action/reaction pair of forces act on different objects
+- The two members of an action/reaction pair point in *opposite directions* but have the *same magnitude*
