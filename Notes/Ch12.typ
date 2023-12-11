@@ -92,7 +92,7 @@ In a $p V$ diagram, each point on the graph represents a single, unique state of
 Assuming that $n$ is known for a sealed container, we can find $T$ from the ideal-gas law
 since we know $p$ and $V$
 
-#highlight[TODO insert images]
+#align(center)[#image("../Images/12-pV-Diagram.png", height: 50%)]
 
 === Constant-Volume Processes
 
@@ -102,26 +102,31 @@ Warming a gas will raise its pressure without changing its volume. This is an ex
 
 A constant-volume process appears on a $p V$ diagram as a vertical line.
 
+#align(center)[#image("../Images/12-Constant-Volume.png", width: 50%)]
+
 === Constant-Pressure Processes
 
 / Isobaric: An isobaric process is a *constant-pressure process*
 
 A constant-pressure process appears on a $p V$ diagram as a horizontal line.
 
-#highlight[TODO insert image of piston]
+For example, you can heat up a container so that the temperature increases,
+making the pressure increase with it, but the volume wouldn't increase.
+
+#align(center)[#image("../Images/12-Constant-Pressure.png")]
 
 === Constant-Temperature Processes
 
 / Isothermal: An isothermal process is a *constant-temperature process*
 
-#highlight[TODO insert image of piston (the other one)]
+#align(center)[#image("../Images/12-Constant-Temperature-Piston.png", width: 50%)]
 
 / Isotherm: A graph of an isothermal process
 
 The location of the isotherm depends on temperature.
 The direction along the isotherm depends on the process.
 
-#highlight[TODO insert image of pV diagram example]
+#align(center)[#image("../Images/12-Constant-Temperature-pV.png")]
 
 === Thermodynamics of Ideal-Gas Processes
 
@@ -138,7 +143,8 @@ To calculate work, *pressure must be in Pa and volume in $upright(m)^3$*
 $x_i A$ is the initial volume and $x_f A$ is the final volume
 
 For all ideal-gas processes, the work is the area under the $p V$ graph between $V_i$ and $V_f$:
-#highlight[TODO: insert image of work done by gas]
+
+#align(center)[#image("../Images/12-Gas-Work.png", width: 50%)]
 
 #note[
   No work is done in a constant-volume process.
